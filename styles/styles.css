@@ -1,10 +1,12 @@
-
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .header {
     background-color: #1F2937;
     padding: 50px 35px;
+    width: auto;
     height: 50px;
-    
 }
 
 .header .logo {
@@ -12,7 +14,7 @@
     color: #F9FAF8;
     float: left;
     padding: 14px 16px;
-    margin-left: 300px;
+    margin-left: 16.5%;
 }
 
 .header .nav {
@@ -38,7 +40,7 @@
 .hero .leftblock {
     float: left;
     flex: 1;
-    margin-left: 300px;
+    margin-left: 16%;
     height: 400px;
     width: auto;
     padding: 50px;
@@ -72,10 +74,123 @@
 .hero .rightblock {
     float: right;
     flex: 1;
-    margin-right: 300px;
+    margin-right: 16%;
     height: 400px;
     width: auto;
     padding: 50px;
     text-align: center;
 }
 
+.information {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information .imagebox {
+    display: inline-flex;
+    margin: 10px;
+    width: 175px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding-top: 190px;
+}
+
+.information .infoboxes {
+    display: inline-flex;
+    margin: 10px;
+    width: 180px;
+    font-size: 20px;
+}
+
+.quote {
+    
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #E5E7EB;
+    color: #1F2937
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .author {
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.action {
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    color: #1F2937;
+    background-color: #3882F6;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.action .containerleft {
+    float: left;
+    flex: 1;
+    text-align: left;
+    padding-left: 100px;
+    width: 500px;
+}
+
+.containerleft h4{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: -30px;
+}
+
+.containerleft h5{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.action .containerright {
+    float: right;
+    padding-top: 35px;
+    padding-right: 100px;
+    flex: 0.5;
+    text-align: right;
+}
+
+.containerright button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 5px;
+    font-size: 18px;
+    font-style: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 30px;
+    width: auto;
+    text-align: center;
+}
