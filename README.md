@@ -1,5 +1,5 @@
 # landing-page
-Project: Landing Page apart of "https://www.theodinproject.com"s Foundations Course.
+Project: Landing Page apart of the https://www.theodinproject.com Foundations Course.
 
 
 During this project I successfully employed my new learned skills of:
